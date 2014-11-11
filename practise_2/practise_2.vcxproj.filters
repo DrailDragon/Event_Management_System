@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\hitech-events.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\Events-Icon.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\index.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\Event-Management.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\Upcoming-events_icon.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="..\..\..\Downloads\New folder\1.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\2.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\3.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\4.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\5.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\6.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\7.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\8.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\9.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\10.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\11.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\12.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\13.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\14.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\15.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\icontexto-search-14.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\New folder\retro-blue-abstract-design-1.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\download (1).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\download.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\events.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\finance.rar">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\global-search-icon.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (1).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (2).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (3).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (4).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (5).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (6).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (7).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (8).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (9).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (10).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (11).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (12).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (13).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (14).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images (15).jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\images.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\index1.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\orensanz_events_space5.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Image1.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="img2.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="practise_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Event_Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_admin1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Financial_Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Resource_Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Password_Change.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Assign_Volunteer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="venue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Upload_File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resoursewise_amountdetails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Add_Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View_Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event_Request_admin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Volunteers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addGroups.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getFiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="r_tasks_individual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="r_tasks_individual1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="r_performance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="venues_nw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="update_resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message_Form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INBOX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="update_venue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="r_search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manage Calendar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manage_calendar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assign_task_to_individual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="f_assign_task_to_group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="f_Search_Cheque.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Task_Individual_Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Group_Resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event_V.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Finance_V.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource_V.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Volunteer_default.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form_Event_Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form_admin1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form_Financial_Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form_Resource_Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Password_Change.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form_Assign_Volunteer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="venue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Upload_File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resoursewise_amountdetails.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Add_Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View_Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form_Search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_Request_admin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form_Volunteers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getFiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="r_tasks_individual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="r_tasks_individual1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="r_performance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="venues_nw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="update_resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message_Form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INBOX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="update_venue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="r_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manage Calendar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manage_calendar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="assign_task_to_individual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="f_assign_task_to_group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="f_Search_Cheque.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form_Task_Individual_Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form_Group_Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_V.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Finance_V.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource_V.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Volunteer_default.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Event_Manager.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_admin1.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Financial_Manager.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Resource_Manager.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password_Change.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Assign_Volunteer.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upload_File.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="venue.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Event.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Event.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Search.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Event_Request_admin.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Volunteers.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addGroups.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="files.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="getFiles.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="r_performance.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="r_tasks_individual.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="r_tasks_individual1.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_resource.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="venues_nw.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INBOX.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message_Form.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage Calendar.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_calendar.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="r_search.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_venue.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assign_task_to_individual.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Group_Resources.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Task_Individual_Resource.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_assign_task_to_group.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Search_Cheque.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Event_V.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance_V.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource_V.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Volunteer_default.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

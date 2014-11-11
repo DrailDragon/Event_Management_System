@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1333300F-FAEC-499F-9C52-CA538A347859}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>practise_2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+    <ResourceCompile>
+      <ResourceOutputFileName>$(IntDir)%(Filename).res</ResourceOutputFileName>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\download (1).jpg" />
+    <None Include="..\..\..\Downloads\download.jpg" />
+    <None Include="..\..\..\Downloads\Event-Management.jpg" />
+    <None Include="..\..\..\Downloads\Events-Icon.gif" />
+    <None Include="..\..\..\Downloads\events.jpg" />
+    <None Include="..\..\..\Downloads\finance.rar" />
+    <None Include="..\..\..\Downloads\global-search-icon.jpg" />
+    <None Include="..\..\..\Downloads\hitech-events.jpg" />
+    <None Include="..\..\..\Downloads\images (1).jpg" />
+    <None Include="..\..\..\Downloads\images (10).jpg" />
+    <None Include="..\..\..\Downloads\images (11).jpg" />
+    <None Include="..\..\..\Downloads\images (12).jpg" />
+    <None Include="..\..\..\Downloads\images (13).jpg" />
+    <None Include="..\..\..\Downloads\images (14).jpg" />
+    <None Include="..\..\..\Downloads\images (15).jpg" />
+    <None Include="..\..\..\Downloads\images (2).jpg" />
+    <None Include="..\..\..\Downloads\images (3).jpg" />
+    <None Include="..\..\..\Downloads\images (4).jpg" />
+    <None Include="..\..\..\Downloads\images (5).jpg" />
+    <None Include="..\..\..\Downloads\images (6).jpg" />
+    <None Include="..\..\..\Downloads\images (7).jpg" />
+    <None Include="..\..\..\Downloads\images (8).jpg" />
+    <None Include="..\..\..\Downloads\images (9).jpg" />
+    <None Include="..\..\..\Downloads\images.jpg" />
+    <None Include="..\..\..\Downloads\index.jpg" />
+    <None Include="..\..\..\Downloads\index1.jpg" />
+    <None Include="..\..\..\Downloads\New folder\1.jpg" />
+    <None Include="..\..\..\Downloads\New folder\10.jpg" />
+    <None Include="..\..\..\Downloads\New folder\11.jpg" />
+    <None Include="..\..\..\Downloads\New folder\12.jpg" />
+    <None Include="..\..\..\Downloads\New folder\13.jpg" />
+    <None Include="..\..\..\Downloads\New folder\14.jpg" />
+    <None Include="..\..\..\Downloads\New folder\15.jpg" />
+    <None Include="..\..\..\Downloads\New folder\2.jpg" />
+    <None Include="..\..\..\Downloads\New folder\3.jpg" />
+    <None Include="..\..\..\Downloads\New folder\4.jpg" />
+    <None Include="..\..\..\Downloads\New folder\5.jpg" />
+    <None Include="..\..\..\Downloads\New folder\6.jpg" />
+    <None Include="..\..\..\Downloads\New folder\7.jpg" />
+    <None Include="..\..\..\Downloads\New folder\8.jpg" />
+    <None Include="..\..\..\Downloads\New folder\9.jpg" />
+    <None Include="..\..\..\Downloads\New folder\icontexto-search-14.png" />
+    <None Include="..\..\..\Downloads\New folder\retro-blue-abstract-design-1.jpg" />
+    <None Include="..\..\..\Downloads\orensanz_events_space5.jpg" />
+    <None Include="..\..\..\Downloads\Upcoming-events_icon.jpg" />
+    <None Include="app.ico" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Image1.jpg" />
+    <None Include="img2.jpg" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="addGroups.cpp" />
+    <ClCompile Include="Add_Event.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="assign_task_to_individual.cpp" />
+    <ClCompile Include="compose.cpp" />
+    <ClCompile Include="Event_Request_admin.cpp" />
+    <ClCompile Include="Event_V.cpp" />
+    <ClCompile Include="files.cpp" />
+    <ClCompile Include="Finance_V.cpp" />
+    <ClCompile Include="Form2.cpp" />
+    <ClCompile Include="Form_admin1.cpp" />
+    <ClCompile Include="Form_Assign_Volunteer.cpp" />
+    <ClCompile Include="Form_Event_Manager.cpp" />
+    <ClCompile Include="Form_Financial_Manager.cpp" />
+    <ClCompile Include="Form_Group_Resources.cpp" />
+    <ClCompile Include="Form_Resource_Manager.cpp" />
+    <ClCompile Include="Form_Search.cpp" />
+    <ClCompile Include="Form_Task_Individual_Resource.cpp" />
+    <ClCompile Include="Form_Volunteers.cpp" />
+    <ClCompile Include="f_assign_task_to_group.cpp" />
+    <ClCompile Include="f_Search_Cheque.cpp" />
+    <ClCompile Include="getFiles.cpp" />
+    <ClCompile Include="INBOX.cpp" />
+    <ClCompile Include="Manage Calendar.cpp" />
+    <ClCompile Include="Manage_calendar.cpp" />
+    <ClCompile Include="Message_Form.cpp" />
+    <ClCompile Include="Password_Change.cpp" />
+    <ClCompile Include="practise_2.cpp" />
+    <ClCompile Include="resources.cpp" />
+    <ClCompile Include="Resource_V.cpp" />
+    <ClCompile Include="resoursewise_amountdetails.cpp" />
+    <ClCompile Include="r_performance.cpp" />
+    <ClCompile Include="r_search.cpp" />
+    <ClCompile Include="r_tasks_individual1.cpp" />
+    <ClCompile Include="r_tasks_individual.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="update_resource.cpp" />
+    <ClCompile Include="update_venue.cpp" />
+    <ClCompile Include="Upload_File.cpp" />
+    <ClCompile Include="venue.cpp" />
+    <ClCompile Include="venues_nw.cpp" />
+    <ClCompile Include="View_Event.cpp" />
+    <ClCompile Include="Volunteer_default.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="addGroups.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Add_Event.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="assign_task_to_individual.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="compose.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Event_Request_admin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Event_V.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="files.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Finance_V.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form_admin1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form_Assign_Volunteer.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form_Event_Manager.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form_Financial_Manager.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form_Group_Resources.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form_Resource_Manager.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form_Search.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form_Task_Individual_Resource.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form_Volunteers.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="f_assign_task_to_group.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="f_Search_Cheque.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="getFiles.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="INBOX.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Manage Calendar.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Manage_calendar.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Message_Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Password_Change.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resources.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Resource_V.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resoursewise_amountdetails.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="r_performance.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="r_search.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="r_tasks_individual1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="r_tasks_individual.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="update_resource.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="update_venue.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Upload_File.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="venue.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="venues_nw.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="View_Event.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Volunteer_default.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="addGroups.resx">
+      <DependentUpon>addGroups.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Event.resx">
+      <DependentUpon>Add_Event.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assign_task_to_individual.resx">
+      <DependentUpon>assign_task_to_individual.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Event_Request_admin.resx">
+      <DependentUpon>Event_Request_admin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Event_V.resx">
+      <DependentUpon>Event_V.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="files.resx">
+      <DependentUpon>files.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance_V.resx">
+      <DependentUpon>Finance_V.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resX">
+      <DependentUpon>Form1.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_admin1.resx">
+      <DependentUpon>Form_admin1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Assign_Volunteer.resx">
+      <DependentUpon>Form_Assign_Volunteer.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Event_Manager.resx">
+      <DependentUpon>Form_Event_Manager.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Financial_Manager.resx">
+      <DependentUpon>Form_Financial_Manager.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Group_Resources.resx">
+      <DependentUpon>Form_Group_Resources.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Resource_Manager.resx">
+      <DependentUpon>Form_Resource_Manager.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Search.resx">
+      <DependentUpon>Form_Search.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Task_Individual_Resource.resx">
+      <DependentUpon>Form_Task_Individual_Resource.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Volunteers.resx">
+      <DependentUpon>Form_Volunteers.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_assign_task_to_group.resx">
+      <DependentUpon>f_assign_task_to_group.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Search_Cheque.resx">
+      <DependentUpon>f_Search_Cheque.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="getFiles.resx">
+      <DependentUpon>getFiles.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INBOX.resx">
+      <DependentUpon>INBOX.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage Calendar.resx">
+      <DependentUpon>Manage Calendar.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_calendar.resx">
+      <DependentUpon>Manage_calendar.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message_Form.resx">
+      <DependentUpon>Message_Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password_Change.resx">
+      <DependentUpon>Password_Change.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources.resx">
+      <DependentUpon>resources.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource_V.resx">
+      <DependentUpon>Resource_V.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="r_performance.resx">
+      <DependentUpon>r_performance.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="r_search.resx">
+      <DependentUpon>r_search.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="r_tasks_individual.resx">
+      <DependentUpon>r_tasks_individual.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="r_tasks_individual1.resx">
+      <DependentUpon>r_tasks_individual1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_resource.resx">
+      <DependentUpon>update_resource.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_venue.resx">
+      <DependentUpon>update_venue.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upload_File.resx">
+      <DependentUpon>Upload_File.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="venue.resx">
+      <DependentUpon>venue.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="venues_nw.resx">
+      <DependentUpon>venues_nw.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Event.resx">
+      <DependentUpon>View_Event.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Volunteer_default.resx">
+      <DependentUpon>Volunteer_default.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

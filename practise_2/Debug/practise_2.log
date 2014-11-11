@@ -1,0 +1,74 @@
+﻿Build started 23-Oct-14 8:34:12 PM.
+     1>Project "C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\practise_2\practise_2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\practise_2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\practise_2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Form2.cpp practise_2.cpp /clr:nostdlib 
+         Form2.cpp
+         practise_2.cpp
+         Generating Code...
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\Debug\practise_2.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\practise_2.addGroups.resources /ASSEMBLYRESOURCE:Debug\practise_2.Add_Event.resources /ASSEMBLYRESOURCE:Debug\practise_2.assign_task_to_individual.resources /ASSEMBLYRESOURCE:Debug\practise_2.Event_Request_admin.resources /ASSEMBLYRESOURCE:Debug\practise_2.Event_V.resources /ASSEMBLYRESOURCE:Debug\practise_2.files.resources /ASSEMBLYRESOURCE:Debug\practise_2.Finance_V.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form1.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form2.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form_admin1.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form_Assign_Volunteer.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form_Event_Manager.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form_Financial_Manager.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form_Group_Resources.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form_Resource_Manager.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form_Search.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form_Task_Individual_Resource.resources /ASSEMBLYRESOURCE:Debug\practise_2.Form_Volunteers.resources /ASSEMBLYRESOURCE:Debug\practise_2.f_assign_task_to_group.resources /ASSEMBLYRESOURCE:Debug\practise_2.f_Search_Cheque.resources /ASSEMBLYRESOURCE:Debug\practise_2.getFiles.resources /ASSEMBLYRESOURCE:Debug\practise_2.INBOX.resources /ASSEMBLYRESOURCE:"Debug\practise_2.Manage Calendar.resources" /ASSEMBLYRESOURCE:Debug\practise_2.Manage_calendar.resources /ASSEMBLYRESOURCE:Debug\practise_2.Message_Form.resources /ASSEMBLYRESOURCE:Debug\practise_2.Password_Change.resources /ASSEMBLYRESOURCE:Debug\practise_2.resources.resources /ASSEMBLYRESOURCE:Debug\practise_2.Resource_V.resources /ASSEMBLYRESOURCE:Debug\practise_2.r_performance.resources /ASSEMBLYRESOURCE:Debug\practise_2.r_search.resources /ASSEMBLYRESOURCE:Debug\practise_2.r_tasks_individual.resources /ASSEMBLYRESOURCE:Debug\practise_2.r_tasks_individual1.resources /ASSEMBLYRESOURCE:Debug\practise_2.update_resource.resources /ASSEMBLYRESOURCE:Debug\practise_2.update_venue.resources /ASSEMBLYRESOURCE:Debug\practise_2.Upload_File.resources /ASSEMBLYRESOURCE:Debug\practise_2.venue.resources /ASSEMBLYRESOURCE:Debug\practise_2.venues_nw.resources /ASSEMBLYRESOURCE:Debug\practise_2.View_Event.resources /ASSEMBLYRESOURCE:Debug\practise_2.Volunteer_default.resources /MANIFEST /ManifestFile:"Debug\practise_2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\Debug\practise_2.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\addGroups.obj
+         Debug\Add_Event.obj
+         Debug\AssemblyInfo.obj
+         Debug\assign_task_to_individual.obj
+         Debug\compose.obj
+         Debug\Event_Request_admin.obj
+         Debug\Event_V.obj
+         Debug\files.obj
+         Debug\Finance_V.obj
+         Debug\Form2.obj
+         Debug\Form_admin1.obj
+         Debug\Form_Assign_Volunteer.obj
+         Debug\Form_Event_Manager.obj
+         Debug\Form_Financial_Manager.obj
+         Debug\Form_Group_Resources.obj
+         Debug\Form_Resource_Manager.obj
+         Debug\Form_Search.obj
+         Debug\Form_Task_Individual_Resource.obj
+         Debug\Form_Volunteers.obj
+         Debug\f_assign_task_to_group.obj
+         Debug\f_Search_Cheque.obj
+         Debug\getFiles.obj
+         Debug\INBOX.obj
+         "Debug\Manage Calendar.obj"
+         Debug\Manage_calendar.obj
+         Debug\Message_Form.obj
+         Debug\Password_Change.obj
+         Debug\practise_2.obj
+         Debug\resources.obj
+         Debug\Resource_V.obj
+         Debug\resoursewise_amountdetails.obj
+         Debug\r_performance.obj
+         Debug\r_search.obj
+         Debug\r_tasks_individual1.obj
+         Debug\r_tasks_individual.obj
+         Debug\stdafx.obj
+         Debug\update_resource.obj
+         Debug\update_venue.obj
+         Debug\Upload_File.obj
+         Debug\venue.obj
+         Debug\venues_nw.obj
+         Debug\View_Event.obj
+         Debug\Volunteer_default.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         practise_2.vcxproj -> C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\Debug\practise_2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\Debug\practise_2.exe;#1" /manifest Debug\practise_2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\practise_2.unsuccessfulbuild".
+         Touching "Debug\practise_2.lastbuildstate".
+     1>Done Building Project "C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\practise_2\practise_2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.74

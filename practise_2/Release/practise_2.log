@@ -1,0 +1,161 @@
+﻿Build started 24-Oct-14 5:42:30 PM.
+     1>Project "C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\practise_2\practise_2.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\Release\".
+       InitializeBuildStatus:
+         Creating "Release\practise_2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\practise_2.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\practise_2.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt addGroups.cpp Add_Event.cpp AssemblyInfo.cpp assign_task_to_individual.cpp compose.cpp Event_Request_admin.cpp Event_V.cpp files.cpp Finance_V.cpp Form2.cpp Form_admin1.cpp Form_Assign_Volunteer.cpp Form_Event_Manager.cpp Form_Financial_Manager.cpp Form_Group_Resources.cpp Form_Resource_Manager.cpp Form_Search.cpp Form_Task_Individual_Resource.cpp Form_Volunteers.cpp f_assign_task_to_group.cpp f_Search_Cheque.cpp getFiles.cpp INBOX.cpp "Manage Calendar.cpp" Manage_calendar.cpp Message_Form.cpp Password_Change.cpp practise_2.cpp resources.cpp Resource_V.cpp resoursewise_amountdetails.cpp r_performance.cpp r_search.cpp r_tasks_individual1.cpp r_tasks_individual.cpp update_resource.cpp update_venue.cpp Upload_File.cpp venue.cpp venues_nw.cpp View_Event.cpp Volunteer_default.cpp /clr:nostdlib 
+         addGroups.cpp
+         Add_Event.cpp
+         AssemblyInfo.cpp
+         assign_task_to_individual.cpp
+         compose.cpp
+         Event_Request_admin.cpp
+         Event_V.cpp
+         files.cpp
+         Finance_V.cpp
+         Form2.cpp
+         Form_admin1.cpp
+         Form_Assign_Volunteer.cpp
+         Form_Event_Manager.cpp
+         Form_Financial_Manager.cpp
+         Form_Group_Resources.cpp
+         Form_Resource_Manager.cpp
+         Form_Search.cpp
+         Form_Task_Individual_Resource.cpp
+         Form_Volunteers.cpp
+         f_assign_task_to_group.cpp
+         Generating Code...
+         Compiling...
+         f_Search_Cheque.cpp
+         getFiles.cpp
+         INBOX.cpp
+         Manage Calendar.cpp
+         Manage_calendar.cpp
+         Message_Form.cpp
+         Password_Change.cpp
+         practise_2.cpp
+         resources.cpp
+         Resource_V.cpp
+         resoursewise_amountdetails.cpp
+         r_performance.cpp
+         r_search.cpp
+         r_tasks_individual1.cpp
+         r_tasks_individual.cpp
+         update_resource.cpp
+         update_venue.cpp
+         Upload_File.cpp
+         venue.cpp
+         venues_nw.cpp
+         Generating Code...
+         Compiling...
+         View_Event.cpp
+         Volunteer_default.cpp
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\pinturaj\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.0\MySql.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile addGroups.resx,Release\practise_2.addGroups.resources Add_Event.resx,Release\practise_2.Add_Event.resources assign_task_to_individual.resx,Release\practise_2.assign_task_to_individual.resources Event_Request_admin.resx,Release\practise_2.Event_Request_admin.resources Event_V.resx,Release\practise_2.Event_V.resources files.resx,Release\practise_2.files.resources Finance_V.resx,Release\practise_2.Finance_V.resources Form1.resX,Release\practise_2.Form1.resources Form2.resx,Release\practise_2.Form2.resources Form_admin1.resx,Release\practise_2.Form_admin1.resources Form_Assign_Volunteer.resx,Release\practise_2.Form_Assign_Volunteer.resources Form_Event_Manager.resx,Release\practise_2.Form_Event_Manager.resources Form_Financial_Manager.resx,Release\practise_2.Form_Financial_Manager.resources Form_Group_Resources.resx,Release\practise_2.Form_Group_Resources.resources Form_Resource_Manager.resx,Release\practise_2.Form_Resource_Manager.resources Form_Search.resx,Release\practise_2.Form_Search.resources Form_Task_Individual_Resource.resx,Release\practise_2.Form_Task_Individual_Resource.resources Form_Volunteers.resx,Release\practise_2.Form_Volunteers.resources f_assign_task_to_group.resx,Release\practise_2.f_assign_task_to_group.resources f_Search_Cheque.resx,Release\practise_2.f_Search_Cheque.resources getFiles.resx,Release\practise_2.getFiles.resources INBOX.resx,Release\practise_2.INBOX.resources "Manage Calendar.resx","Release\practise_2.Manage Calendar.resources" Manage_calendar.resx,Release\practise_2.Manage_calendar.resources Message_Form.resx,Release\practise_2.Message_Form.resources Password_Change.resx,Release\practise_2.Password_Change.resources resources.resx,Release\practise_2.resources.resources Resource_V.resx,Release\practise_2.Resource_V.resources r_performance.resx,Release\practise_2.r_performance.resources r_search.resx,Release\practise_2.r_search.resources r_tasks_individual.resx,Release\practise_2.r_tasks_individual.resources r_tasks_individual1.resx,Release\practise_2.r_tasks_individual1.resources update_resource.resx,Release\practise_2.update_resource.resources update_venue.resx,Release\practise_2.update_venue.resources Upload_File.resx,Release\practise_2.Upload_File.resources venue.resx,Release\practise_2.venue.resources venues_nw.resx,Release\practise_2.venues_nw.resources View_Event.resx,Release\practise_2.View_Event.resources Volunteer_default.resx,Release\practise_2.Volunteer_default.resources
+         Processing resource file "addGroups.resx" into "Release\practise_2.addGroups.resources".
+         Processing resource file "Add_Event.resx" into "Release\practise_2.Add_Event.resources".
+         Processing resource file "assign_task_to_individual.resx" into "Release\practise_2.assign_task_to_individual.resources".
+         Processing resource file "Event_Request_admin.resx" into "Release\practise_2.Event_Request_admin.resources".
+         Processing resource file "Event_V.resx" into "Release\practise_2.Event_V.resources".
+         Processing resource file "files.resx" into "Release\practise_2.files.resources".
+         Processing resource file "Finance_V.resx" into "Release\practise_2.Finance_V.resources".
+         Processing resource file "Form1.resX" into "Release\practise_2.Form1.resources".
+         Processing resource file "Form2.resx" into "Release\practise_2.Form2.resources".
+         Processing resource file "Form_admin1.resx" into "Release\practise_2.Form_admin1.resources".
+         Processing resource file "Form_Assign_Volunteer.resx" into "Release\practise_2.Form_Assign_Volunteer.resources".
+         Processing resource file "Form_Event_Manager.resx" into "Release\practise_2.Form_Event_Manager.resources".
+         Processing resource file "Form_Financial_Manager.resx" into "Release\practise_2.Form_Financial_Manager.resources".
+         Processing resource file "Form_Group_Resources.resx" into "Release\practise_2.Form_Group_Resources.resources".
+         Processing resource file "Form_Resource_Manager.resx" into "Release\practise_2.Form_Resource_Manager.resources".
+         Processing resource file "Form_Search.resx" into "Release\practise_2.Form_Search.resources".
+         Processing resource file "Form_Task_Individual_Resource.resx" into "Release\practise_2.Form_Task_Individual_Resource.resources".
+         Processing resource file "Form_Volunteers.resx" into "Release\practise_2.Form_Volunteers.resources".
+         Processing resource file "f_assign_task_to_group.resx" into "Release\practise_2.f_assign_task_to_group.resources".
+         Processing resource file "f_Search_Cheque.resx" into "Release\practise_2.f_Search_Cheque.resources".
+         Processing resource file "getFiles.resx" into "Release\practise_2.getFiles.resources".
+         Processing resource file "INBOX.resx" into "Release\practise_2.INBOX.resources".
+         Processing resource file "Manage Calendar.resx" into "Release\practise_2.Manage Calendar.resources".
+         Processing resource file "Manage_calendar.resx" into "Release\practise_2.Manage_calendar.resources".
+         Processing resource file "Message_Form.resx" into "Release\practise_2.Message_Form.resources".
+         Processing resource file "Password_Change.resx" into "Release\practise_2.Password_Change.resources".
+         Processing resource file "resources.resx" into "Release\practise_2.resources.resources".
+         Processing resource file "Resource_V.resx" into "Release\practise_2.Resource_V.resources".
+         Processing resource file "r_performance.resx" into "Release\practise_2.r_performance.resources".
+         Processing resource file "r_search.resx" into "Release\practise_2.r_search.resources".
+         Processing resource file "r_tasks_individual.resx" into "Release\practise_2.r_tasks_individual.resources".
+         Processing resource file "r_tasks_individual1.resx" into "Release\practise_2.r_tasks_individual1.resources".
+         Processing resource file "update_resource.resx" into "Release\practise_2.update_resource.resources".
+         Processing resource file "update_venue.resx" into "Release\practise_2.update_venue.resources".
+         Processing resource file "Upload_File.resx" into "Release\practise_2.Upload_File.resources".
+         Processing resource file "venue.resx" into "Release\practise_2.venue.resources".
+         Processing resource file "venues_nw.resx" into "Release\practise_2.venues_nw.resources".
+         Processing resource file "View_Event.resx" into "Release\practise_2.View_Event.resources".
+         Processing resource file "Volunteer_default.resx" into "Release\practise_2.Volunteer_default.resources".
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\Release\practise_2.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\practise_2.addGroups.resources /ASSEMBLYRESOURCE:Release\practise_2.Add_Event.resources /ASSEMBLYRESOURCE:Release\practise_2.assign_task_to_individual.resources /ASSEMBLYRESOURCE:Release\practise_2.Event_Request_admin.resources /ASSEMBLYRESOURCE:Release\practise_2.Event_V.resources /ASSEMBLYRESOURCE:Release\practise_2.files.resources /ASSEMBLYRESOURCE:Release\practise_2.Finance_V.resources /ASSEMBLYRESOURCE:Release\practise_2.Form1.resources /ASSEMBLYRESOURCE:Release\practise_2.Form2.resources /ASSEMBLYRESOURCE:Release\practise_2.Form_admin1.resources /ASSEMBLYRESOURCE:Release\practise_2.Form_Assign_Volunteer.resources /ASSEMBLYRESOURCE:Release\practise_2.Form_Event_Manager.resources /ASSEMBLYRESOURCE:Release\practise_2.Form_Financial_Manager.resources /ASSEMBLYRESOURCE:Release\practise_2.Form_Group_Resources.resources /ASSEMBLYRESOURCE:Release\practise_2.Form_Resource_Manager.resources /ASSEMBLYRESOURCE:Release\practise_2.Form_Search.resources /ASSEMBLYRESOURCE:Release\practise_2.Form_Task_Individual_Resource.resources /ASSEMBLYRESOURCE:Release\practise_2.Form_Volunteers.resources /ASSEMBLYRESOURCE:Release\practise_2.f_assign_task_to_group.resources /ASSEMBLYRESOURCE:Release\practise_2.f_Search_Cheque.resources /ASSEMBLYRESOURCE:Release\practise_2.getFiles.resources /ASSEMBLYRESOURCE:Release\practise_2.INBOX.resources /ASSEMBLYRESOURCE:"Release\practise_2.Manage Calendar.resources" /ASSEMBLYRESOURCE:Release\practise_2.Manage_calendar.resources /ASSEMBLYRESOURCE:Release\practise_2.Message_Form.resources /ASSEMBLYRESOURCE:Release\practise_2.Password_Change.resources /ASSEMBLYRESOURCE:Release\practise_2.resources.resources /ASSEMBLYRESOURCE:Release\practise_2.Resource_V.resources /ASSEMBLYRESOURCE:Release\practise_2.r_performance.resources /ASSEMBLYRESOURCE:Release\practise_2.r_search.resources /ASSEMBLYRESOURCE:Release\practise_2.r_tasks_individual.resources /ASSEMBLYRESOURCE:Release\practise_2.r_tasks_individual1.resources /ASSEMBLYRESOURCE:Release\practise_2.update_resource.resources /ASSEMBLYRESOURCE:Release\practise_2.update_venue.resources /ASSEMBLYRESOURCE:Release\practise_2.Upload_File.resources /ASSEMBLYRESOURCE:Release\practise_2.venue.resources /ASSEMBLYRESOURCE:Release\practise_2.venues_nw.resources /ASSEMBLYRESOURCE:Release\practise_2.View_Event.resources /ASSEMBLYRESOURCE:Release\practise_2.Volunteer_default.resources /MANIFEST /ManifestFile:"Release\practise_2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\Release\practise_2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\addGroups.obj
+         Release\Add_Event.obj
+         Release\AssemblyInfo.obj
+         Release\assign_task_to_individual.obj
+         Release\compose.obj
+         Release\Event_Request_admin.obj
+         Release\Event_V.obj
+         Release\files.obj
+         Release\Finance_V.obj
+         Release\Form2.obj
+         Release\Form_admin1.obj
+         Release\Form_Assign_Volunteer.obj
+         Release\Form_Event_Manager.obj
+         Release\Form_Financial_Manager.obj
+         Release\Form_Group_Resources.obj
+         Release\Form_Resource_Manager.obj
+         Release\Form_Search.obj
+         Release\Form_Task_Individual_Resource.obj
+         Release\Form_Volunteers.obj
+         Release\f_assign_task_to_group.obj
+         Release\f_Search_Cheque.obj
+         Release\getFiles.obj
+         Release\INBOX.obj
+         "Release\Manage Calendar.obj"
+         Release\Manage_calendar.obj
+         Release\Message_Form.obj
+         Release\Password_Change.obj
+         Release\practise_2.obj
+         Release\resources.obj
+         Release\Resource_V.obj
+         Release\resoursewise_amountdetails.obj
+         Release\r_performance.obj
+         Release\r_search.obj
+         Release\r_tasks_individual1.obj
+         Release\r_tasks_individual.obj
+         Release\stdafx.obj
+         Release\update_resource.obj
+         Release\update_venue.obj
+         Release\Upload_File.obj
+         Release\venue.obj
+         Release\venues_nw.obj
+         Release\View_Event.obj
+         Release\Volunteer_default.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         practise_2.vcxproj -> C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\Release\practise_2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\Release\practise_2.exe;#1" /manifest Release\practise_2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\practise_2.unsuccessfulbuild".
+         Touching "Release\practise_2.lastbuildstate".
+     1>Done Building Project "C:\Users\pinturaj\Documents\Visual Studio 2010\Projects\Event_Management_System\practise_2\practise_2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.82
